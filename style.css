@@ -1,0 +1,203 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.p1{
+    font-size: x-small;
+    margin: 0;
+    padding: 0;
+}
+h4{
+    margin: 0;
+    padding: 0;
+}
+
+a>svg{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    fill: white;
+    stroke: white;
+}
+a:hover{
+    font-size: x-large;
+    font-weight: 500;
+    transition: all .5s ease;
+}
+.main-one{
+    width: 50px;
+    height: 50px;
+    padding-right: 5px;
+    padding-left: 5px;
+    fill: white;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    font-family: sans-serif;
+}
+.sidebar{
+    padding-top: 10px;
+    display: grid;
+    gap: 40px 40px;
+    grid-template-rows: 50px 275px 150px;
+    grid-column: 1/2;
+    background-color: cadetblue;
+    color: white;
+    height: 650px;
+    font-size: large;
+
+}
+.first{
+    display: grid;
+    padding-left: 20px;
+    justify-content: left;
+}
+.second{
+    display: grid;
+    padding-left: 20px;
+    justify-content: left;
+}
+
+.dash1{
+    display: flex;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+}
+.dash2{
+    display: flex;
+    align-items: center;
+}
+.main{
+    display: grid;
+    grid-column: 2/3;
+    grid-template-rows: .8fr 3fr;
+    background-color:beige;
+}
+.header{
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: azure;
+}
+.main1{
+    width: 25px;
+    height: 25px;
+}
+input{
+    width: 450px;
+    height: 20px;
+    border-radius: 12px;
+    border: 0;
+    background-color: lightgrey;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+.img1{
+    width: 50px;
+    height: 48px;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+.line1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.line2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.first-bit{
+    display: flex;
+    align-items: center;
+}
+.second-bit{
+    display: flex;
+    align-items: center;
+}
+h4:hover, .img1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.main1:hover{
+    cursor: pointer;
+}
+button{
+    color: white;
+    background-color: cadetblue;
+    border-radius: 22px;
+    font-size: medium;
+    height: 30px;
+    border: none;
+    width: 90px;
+    padding: 0 10px 0 10px;
+    margin: 10px 0 0 25px;
+}
+button:hover{
+    background-color: rgb(87, 143, 145);
+    box-shadow: 3px 3px 5px black;
+    transition: all .5s;
+    cursor: pointer;
+}
+.contents{
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    padding: 18px;
+}
+.projects{
+    grid-column: 1/2;
+    grid-row: 1/-1;
+}
+.announcements{
+    width: 200px;
+    height: 398px;
+    background-color: azure;
+    margin-left: 10px;
+    border-radius: 8px;
+    padding: 25px;
+}
+.announcements>h4{
+    opacity: .5;
+}
+.announcements>p{
+    opacity: .3;
+    margin: 9px;
+    text-align: justify;
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 17px 17px;
+}
+.box{
+    background-color: azure;
+    padding: 10px;
+    border-left: 10px solid cadetblue;
+    border-radius: 8px;
+}
+.box>p{
+    text-align:justify;
+}
+h3{
+    margin: 5px 0 12px;
+}
+p{
+    font-size: small;
+}
+.box:hover{
+    box-shadow: 5px 5px 7px black;
+    transition: all .5s ease;
+    cursor: pointer;
+}
